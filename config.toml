@@ -1,0 +1,54 @@
+baseurl = "https://example.com/"
+title = "Clarity"
+author = "Jane Doe"
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+paginate = 10
+theme = "clarity"
+disqusShortname = ""
+DefaultContentLanguage = "en"
+themesDir = "themes"
+baseURL = ""
+publishDir = "public"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xhtml = false
+
+[markup.goldmark.extensions]
+typographer = false
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+hl_Lines = "--"
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = false
+noClasses = false
+tabWidth = 2
+
+[params]
+author = "Jane Doe"
+twitter = "@janedoe"
+largeTwitterCard = false
+introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+ga_analytics = "XXXXXXXXXX"
+numberOfTagsShown = 14
+fallBackOgImage = "images/thumbnail.png"
+codeMaxLines = 7
+codeLineNumbers = false
+enableMathNotation = false
+mainSections = [ "post" ]
+centerLogo = false
+logo = "logos/logo.png"
+figurePositionShow = false
+figurePositionLabel = "Figure"
+mobileNavigation = "left"
+enforceLightMode = false
+languageMenuName = "🌐"
